@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_add_note"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:title="Add Note"
+        android:titleTextColor="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Title Field -->
+    <EditText
+        android:id="@+id/titleEdit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Enter Title"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textColor="#000"
+        android:textColorHint="#888"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_add_note" />
+
+    <!-- Description Field -->
+    <EditText
+        android:id="@+id/descEdit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="Enter Description"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:gravity="top"
+        android:textColor="#000"
+        android:textColorHint="#888"
+        android:minLines="5"
+        app:layout_constraintTop_toBottomOf="@id/titleEdit"
+        app:layout_constraintBottom_toTopOf="@id/SaveButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/SaveButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="24dp"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
