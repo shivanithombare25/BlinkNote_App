@@ -2,7 +2,6 @@
 
 BlinkNote is a beautifully designed Android note-taking app created as a mini project. It allows you to create, edit, delete, and organize notes with a modern, smooth UI experience.
 
-<img src="Splash screen.png" width="400" />
 
 ---
 
@@ -20,13 +19,13 @@ BlinkNote is a beautifully designed Android note-taking app created as a mini pr
 
 ## 📱 Screenshots
 
-<img src="Splash screen.png" width="300"/> <img src="HomePage.png" width="300"/>
-<img src="Add new note.png" width="300"/> <img src="Edit & update screen.png" width="300"/>
-<img src="Search Feature.png" width="300"/> <img src="Delete feature.png" width="300"/> 
-<img src="Deleted note.png" width="300"/> <img src="refresh deleted note.png" width="300"/>
-<img src="settings.png" width="300"/> <img src="Dark mode on.png" width="300"/>
-<img src="Menu.png" width="300"/> <img src="Sort by Feature.png" width="300"/>
- <img src="About App.png" width="300"/>
+<img src="Splash screen.png" width="300"/>  <img src="HomePage.png" width="300"/>
+<img src="Add new note.png" width="300"/>  <img src="Edit & update screen.png" width="300"/>
+<img src="Search Feature.png" width="300"/>  <img src="Delete feature.png" width="300"/> 
+<img src="Deleted note.png" width="300"/>  <img src="refresh deleted note.png" width="300"/>
+<img src="settings.png" width="300"/>  <img src="Dark mode on.png" width="300"/>
+<img src="Menu.png" width="300"/>  <img src="Sort by Feature.png" width="300"/>
+  <img src="About App.png" width="300"/>
 
 ---
 
